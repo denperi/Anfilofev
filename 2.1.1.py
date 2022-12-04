@@ -24,7 +24,7 @@ city_int_D = {'Москва': 0.4581, 'Санкт-Петербург': 0.1415, '
 
 file = Workbook()
 del file['Sheet']
-page = file.create_sheet('Статистика по годам')
+page = file.create_sheet('Статистика по минутам')
 thinstyle = Side(border_style="thin")
 boldstyle = Font(bold=True)
 bord = Border(top=thinstyle, left=thinstyle, right=thinstyle, bottom=thinstyle)
